@@ -1,7 +1,7 @@
 ﻿using System.Text;
-using task4 = OzonTech.Route256.Sandbox.Task4;
+using task4 = OzonTech.Route256.Sandbox.FirstWays.Task4;
 
-namespace OzonTech.Route256.Tests;
+namespace OzonTech.Route256.Tests.FirstWays;
 public class Task4UnitTest
 {
     [Fact]
@@ -10,7 +10,7 @@ public class Task4UnitTest
         // Arrange
         //Находим папку
         var currentDir = Directory.GetCurrentDirectory();
-        var path = Path.Combine(Directory.GetParent(currentDir).Parent.Parent.FullName, "SandboxTasks/4/tests4");
+        var path = Path.Combine(Directory.GetParent(currentDir).Parent.Parent.FullName, "Sandbox/SandboxTasks/4/tests4");
         Assert.True(Directory.Exists(path), $"Не найдена папка с тестами для задачи: {path}");
         //Тянем файлы с входными данными
         var inputFiles = Directory.GetFiles(path, "*")

@@ -1,7 +1,7 @@
 ﻿using Xunit.Sdk;
-using task3 = OzonTech.Route256.Sandbox.Task3;
+using task3 = OzonTech.Route256.Sandbox.FirstWays.Task3;
 
-namespace OzonTech.Route256.Tests;
+namespace OzonTech.Route256.Tests.FirstWays;
 public class Task3UnitTest
 {
     [Fact]
@@ -9,7 +9,7 @@ public class Task3UnitTest
     {
         //Arrange
         var currentDir = Directory.GetCurrentDirectory();
-        var path = Path.Combine(Directory.GetParent(currentDir).Parent.Parent.FullName, "SandboxTasks/3/tests3");
+        var path = Path.Combine(Directory.GetParent(currentDir).Parent.Parent.FullName, "Sandbox/SandboxTasks/3/tests3");
         Assert.True(Directory.Exists(path), $"Не найдена папка с тестами для задачи: {path}");
         //Тянем файлы с входными данными
         var inputFiles = Directory.GetFiles(path, "*")

@@ -1,4 +1,4 @@
-﻿namespace OzonTech.Route256.Sandbox;
+﻿namespace OzonTech.Route256.Sandbox.FirstWays;
 public class Task1
 {
     public static string SolveTask1(string str)

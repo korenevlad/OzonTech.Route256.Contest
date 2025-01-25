@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 
-namespace OzonTech.Route256.Sandbox;
+namespace OzonTech.Route256.Sandbox.FirstWays;
 public class Directory
 {
     public string Dir { get; set; }

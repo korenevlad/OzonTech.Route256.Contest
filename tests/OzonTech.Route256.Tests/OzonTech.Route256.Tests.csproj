@@ -24,4 +24,15 @@
       <ProjectReference Include="..\..\src\OzonTech.Route256.Sandbox\OzonTech.Route256.Sandbox.csproj" />
     </ItemGroup>
 
+
+
+    <ItemGroup>
+      <Folder Include="MainRound\MainRoundTasks\1\tests1\" />
+      <Folder Include="MainRound\MainRoundTasks\2\tests2\" />
+      <Folder Include="MainRound\MainRoundTasks\3\tests3\" />
+      <Folder Include="MainRound\MainRoundTasks\4\tests4\" />
+      <Folder Include="MainRound\MainRoundTasks\5\tests5\" />
+      <Folder Include="MainRound\MainRoundTasks\6\tests6\" />
+    </ItemGroup>
+
 </Project>
